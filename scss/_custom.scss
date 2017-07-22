@@ -1,21 +1,21 @@
 body {
-	min-height: 50em;
+  min-height: 40em;
 }
 
 footer{
-	background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .languages-switcher {
-	float: right;
-	width: auto;
-	li > a {
-		padding: 0;
-		img {
-			width: 2em;
-			height: 2em;
-		}
-	}
+  float: right;
+  width: auto;
+  li > a {
+    padding: 0;
+    img {
+      width: 2em;
+      height: 2em;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
