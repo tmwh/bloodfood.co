@@ -11,5 +11,5 @@ markdown: kramdown
 exclude :
   - node_modules
 languages: ["en", "ru", "ua"]
-exclude_from_localizations: ["js", "fonts", "images", "css"]
+exclude_from_localizations: ["CNAME", "js", "fonts", "images", "css"]
 baseurl: ""

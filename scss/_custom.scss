@@ -10,7 +10,11 @@ footer{
   float: right;
   width: auto;
   li > a {
-    padding: 0;
+		color: white;
+		font-weight: bold;
+		&:hover {
+			color: #dfdfdf;
+		}
     img {
       width: 2em;
       height: 2em;
