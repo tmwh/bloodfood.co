@@ -1,6 +1,6 @@
 #big-slider {
 	height: 100%;
-	margin-top: -8.5rem;
+	margin-top: -7rem;
 	position: relative;
 	z-index: -1;
 	#give-summer {
@@ -8,6 +8,7 @@
 		position: absolute;
 		right: 10%;
 		height: 50%;
+		top: 25%;
 		@include breakpoint(small only) {
 			height: auto;
 			width: 80%;
