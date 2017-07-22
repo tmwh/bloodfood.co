@@ -3,6 +3,14 @@
 	margin-top: -7rem;
 	position: relative;
 	z-index: -1;
+	.languages-cover {
+		position: absolute;
+		z-index: 1000;
+		top: 0;
+		right: 0;
+		height: 80%;
+		max-width: none;
+	}
 	#give-summer {
 		z-index: 1001;
 		position: absolute;

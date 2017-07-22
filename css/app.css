@@ -4254,6 +4254,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -7rem;
   position: relative;
   z-index: -1; }
+  #big-slider .languages-cover {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    height: 80%;
+    max-width: none; }
   #big-slider #give-summer {
     z-index: 1001;
     position: absolute;
