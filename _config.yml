@@ -1,0 +1,15 @@
+name: Blood Food e-Juice
+brand: Blood Food
+description: Blood Food e-Juice homepage
+keyword:
+url: https://bloodfood.co/
+email: dudkin.dmitriy@gmail.com
+github: tmwh
+author: tmwh
+year: 2017
+markdown: kramdown
+exclude :
+  - node_modules
+languages: ["en", "ru", "ua"]
+exclude_from_localizations: ["js", "fonts", "images", "css"]
+baseurl: ""
