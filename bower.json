@@ -1,17 +1,16 @@
 {
-  "name": "foundation-sites-template",
-  "version": "1.0.0",
+  "name": "bloodfood.co",
+  "version": "0.0.1",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Dmitriy Dudkin <dudkin.dmitriy@gmail.com>"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "http://bloodfood.co",
   "dependencies": {
     "foundation-sites": "~6.2.0",
-    "motion-ui": "~1.1.0",
-    "Scrollify": "^1.0.14"
+    "motion-ui": "~1.1.0"
   },
   "ignore": [
     "**/.*",
