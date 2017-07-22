@@ -387,7 +387,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: LatoWebLight, "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1087,7 +1087,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: LatoWebLight, "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -4177,6 +4177,42 @@ table.hover tbody tr:nth-of-type(even):hover {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'LatoWebBold';
+  src: url("/fonts/lato/Lato-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/Lato-Bold.woff2") format("woff2"), url("/fonts/lato/Lato-Bold.woff") format("woff"), url("/fonts/lato/Lato-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+@font-face {
+  font-family: 'LatoWebLight';
+  src: url("/fonts/lato/Lato-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/Lato-Light.woff2") format("woff2"), url("/fonts/lato/Lato-Light.woff") format("woff"), url("/fonts/lato/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+@font-face {
+  font-family: 'LatoWeb';
+  src: url("/fonts/lato/Lato-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/Lato-Regular.woff2") format("woff2"), url("/fonts/lato/Lato-Regular.woff") format("woff"), url("/fonts/lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+@font-face {
+  font-family: 'LatoWebThin';
+  src: url("/fonts/lato/Lato-Thin.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/lato/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/lato/Lato-Thin.woff2") format("woff2"), url("/fonts/lato/Lato-Thin.woff") format("woff"), url("/fonts/lato/Lato-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
 body {
   min-height: 40em; }
 
@@ -4187,7 +4223,10 @@ footer {
   float: right;
   width: auto; }
   .languages-switcher li > a {
-    padding: 0; }
+    color: white;
+    font-weight: bold; }
+    .languages-switcher li > a:hover {
+      color: #dfdfdf; }
     .languages-switcher li > a img {
       width: 2em;
       height: 2em; }
